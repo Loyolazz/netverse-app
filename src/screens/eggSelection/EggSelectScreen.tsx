@@ -8,8 +8,8 @@ type Props = NativeStackScreenProps<RootStackParamList, 'EggSelect'>;
 export default function EggSelectScreen({ navigation }: Props) {
     return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-            <Text>Login Screen</Text>
-            <Button title="Ir para Registro" onPress={() => navigation.navigate('Register')} />
+            <Text>EggSelect Screen</Text>
+            <Button title="Ir para Registro" onPress={() => navigation.navigate('Dashboard')} />
         </View>
     );
 }
